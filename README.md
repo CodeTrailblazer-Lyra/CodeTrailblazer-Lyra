@@ -15,4 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--统计卡片-->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra)](https://github.com/anuraghazra/github-readme-stats)
+
+<!--使用的语言统计-->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeTrailblazer-Lyra)
