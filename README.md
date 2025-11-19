@@ -1,4 +1,4 @@
-## Hi there 👋
+<!-- ## Hi there 👋 -->
 
 <!--
 **CodeTrailblazer-Lyra/CodeTrailblazer-Lyra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,8 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+## My code rating
 <!--统计卡片-->
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra&show_icons=true&theme=tokyonight)
 
 <!--使用的语言统计-->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeTrailblazer-Lyra)
