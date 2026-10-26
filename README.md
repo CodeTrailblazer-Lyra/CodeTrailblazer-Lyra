@@ -2,6 +2,8 @@
 
 <img align="right" width="55%" src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics.svg" alt="GitHub Metrics">
 
+---
+
 ### 👋 你好！
 
 热爱折腾技术的开发者 ☁️
