@@ -6,16 +6,23 @@ on:
   schedule:
     - cron: "0 20 * * *"
 
-  # 支持在 Actions 页面手动运行
+  # 支持手动运行
   workflow_dispatch:
 
-# 允许工作流将生成的 SVG 提交到仓库
-permissions:
-  contents: write
+  # 推送到主分支时更新
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - ".github/workflows/metrics.yml"
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Generate Metrics
@@ -24,19 +31,44 @@ jobs:
           # GitHub 用户名
           user: CodeTrailblazer-Lyra
 
-          # 输出文件名，放在仓库根目录
+          # 输出到个人主页仓库根目录
           filename: metrics.svg
-
-          # 使用 GitHub Actions 自带的 Token
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          # 基础统计内容
-          base: header, activity, community, metadata
-
-          # 显示常用编程语言
-          plugin_languages: yes
-          plugin_languages_limit: 4
-          plugin_languages_details: percentage
-
-          # 使用中文主页对应的时区
+          # 基础信息
+          template: classic
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
+
+          # 最近活动
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+
+          # 编码习惯
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+
+          # 半年贡献日历
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # 最常用编程语言
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_colors: github
+          plugin_languages_threshold: 0%
+
+          # 仓库主题
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
