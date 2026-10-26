@@ -1,0 +1,42 @@
+
+name: Generate GitHub Metrics
+
+on:
+  # 每天北京时间凌晨 4 点更新
+  schedule:
+    - cron: "0 20 * * *"
+
+  # 支持在 Actions 页面手动运行
+  workflow_dispatch:
+
+# 允许工作流将生成的 SVG 提交到仓库
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # GitHub 用户名
+          user: CodeTrailblazer-Lyra
+
+          # 输出文件名，放在仓库根目录
+          filename: metrics.svg
+
+          # 使用 GitHub Actions 自带的 Token
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # 基础统计内容
+          base: header, activity, community, metadata
+
+          # 显示常用编程语言
+          plugin_languages: yes
+          plugin_languages_limit: 4
+          plugin_languages_details: percentage
+
+          # 使用中文主页对应的时区
+          config_timezone: Asia/Shanghai
