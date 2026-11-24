@@ -46,18 +46,33 @@
 
   <h3>自动化与可观测性</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=bash,ansible,prometheus,grafana&amp;theme=dark" alt="Bash, Ansible, Prometheus, Grafana" height="64" />
+    <img src="https://skillicons.dev/icons?i=bash,ansible,jenkins,gradle,prometheus,grafana,elasticsearch,sentry&amp;theme=dark&amp;perline=8" alt="Bash, Ansible, Jenkins, Gradle, Prometheus, Grafana, Elasticsearch, Sentry" height="64" />
   </p>
 
-  <h3>云平台与虚拟化</h3>
+  <h3>语言与框架</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=python,go,java,react,vue,typescript,nextjs,vite&amp;theme=dark&amp;perline=8" alt="Python, Go, Java, React, Vue, TypeScript, Next.js, Vite" height="64" />
+  </p>
+
+  <h3>数据与缓存</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,redis,sqlite&amp;theme=dark" alt="MongoDB, MySQL, Redis, SQLite" height="64" />
+    &nbsp;
+    <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/assets/neo4j.svg" alt="Neo4j" height="48" />
+  </p>
+
+  <h3>开发与协作工具</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,atom,electron&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Atom, Electron" height="64" />
+  </p>
+
+  <h3>平台与创作工具</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=aws,ai,wordpress&amp;theme=dark" alt="AWS, Adobe Illustrator, WordPress" height="64" />
+  </p>
   <p>
     <img src="https://img.shields.io/badge/Alibaba%20Cloud-FF6A00?style=for-the-badge&amp;logo=alibabacloud&amp;logoColor=white" alt="Alibaba Cloud" />
     <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&amp;logo=vmware&amp;logoColor=white" alt="VMware" />
-  </p>
-
-  <h3>语言与开发工具</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=python,git,github,vscode,java,react,typescript&amp;theme=dark&amp;perline=7" alt="Python, Git, GitHub, VS Code, Java, React, TypeScript" />
   </p>
 </div>
 
