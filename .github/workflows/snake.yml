@@ -1,0 +1,45 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - ".github/workflows/snake.yml"
+      - "assets/snake-dark.svg"
+      - "assets/snake-light.svg"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake
+        uses: Platane/snk@905444068febdb67551f3a9e1792a469e7432f67
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake-dark.svg?palette=github-dark&color_snake=6C63FF
+            assets/snake-light.svg?palette=github-light&color_snake=7845ab
+
+      - name: Commit snake
+        uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403
+        with:
+          commit_message: "chore: update contribution snake [skip ci]"
+          file_pattern: assets/snake-dark.svg assets/snake-light.svg
