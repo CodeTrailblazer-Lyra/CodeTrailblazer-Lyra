@@ -58,17 +58,27 @@
   </tr>
 </table>
 
-## 🧰 技术栈
+## 🧰 SRE 技术栈
 
 <div align="center">
-  <h3>云原生与基础设施</h3>
+  <h3>云平台与网络</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes&amp;theme=dark" alt="Linux, Docker, Kubernetes" height="64" />
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,openstack,nginx,linux&amp;theme=dark&amp;perline=7" alt="AWS, Azure, GCP, Cloudflare, OpenStack, Nginx, Linux" height="64" />
   </p>
 
-  <h3>自动化与可观测性</h3>
+  <h3>容器与基础设施即代码</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=bash,ansible,jenkins,gradle,prometheus,grafana,elasticsearch,sentry&amp;theme=dark&amp;perline=8" alt="Bash, Ansible, Jenkins, Gradle, Prometheus, Grafana, Elasticsearch, Sentry" height="64" />
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,k3s,terraform,ansible&amp;theme=dark&amp;perline=5" alt="Docker, Kubernetes, K3s, Terraform, Ansible" height="64" />
+  </p>
+
+  <h3>自动化与持续交付</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=bash,python,jenkins,githubactions,gitlab&amp;theme=dark&amp;perline=5" alt="Bash, Python, Jenkins, GitHub Actions, GitLab CI" height="64" />
+  </p>
+
+  <h3>可观测性与稳定性</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=prometheus,grafana,jaeger,elasticsearch,sentry&amp;theme=dark&amp;perline=5" alt="Prometheus, Grafana, Jaeger, Elasticsearch, Sentry" height="64" />
   </p>
 
   <h3>数据与缓存</h3>
@@ -80,7 +90,7 @@
 
   <h3>开发与协作工具</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,atom,electron&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Atom, Electron" height="64" />
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,vim,neovim&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Vim, Neovim" height="64" />
   </p>
 </div>
 
@@ -123,15 +133,6 @@
   </tr>
 </table>
 -->
-
-## 📊 GitHub 数据
-
-<div align="center">
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeTrailblazer-Lyra&amp;layout=compact&amp;langs_count=8&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=12" alt="最常用的编程语言" width="420" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=CodeTrailblazer-Lyra&amp;bg_color=0D1117&amp;color=6C63FF&amp;line=58A6FF&amp;point=F78166&amp;area=true&amp;hide_border=true&amp;radius=12&amp;custom_title=Contribution%20Activity" alt="GitHub 贡献活动图" width="840" />
-  </p>
-</div>
 
 ## 🐍 贡献动态
 
