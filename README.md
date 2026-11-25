@@ -69,10 +69,6 @@
     &nbsp;
     <img src="https://api.iconify.design/thesvg-color/huaweicloud.svg" alt="华为云" height="48" />
     &nbsp;
-    <img src="https://api.iconify.design/thesvg-color/baiducloud.svg" alt="百度智能云" height="48" />
-    &nbsp;
-    <img src="https://api.iconify.design/thesvg-color/volcengine.svg" alt="火山引擎" height="48" />
-    &nbsp;
     <img src="https://skillicons.dev/icons?i=openstack,nginx,linux&amp;theme=dark&amp;perline=3" alt="OpenStack, Nginx, Linux" height="48" />
   </p>
 
