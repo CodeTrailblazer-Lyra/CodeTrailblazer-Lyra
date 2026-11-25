@@ -52,7 +52,10 @@
           <img src="https://img.shields.io/badge/GitHub%20Metrics-6C63FF?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub Metrics" />
           <img src="https://img.shields.io/badge/Daily%20Update-58A6FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="每日自动更新" />
         </p>
-        <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics.svg" alt="CodeTrailblazer-Lyra 的 GitHub Coding Metrics 仪表盘" width="560" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics-dark.svg" />
+          <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics-light.svg" alt="CodeTrailblazer-Lyra 的 GitHub Coding Metrics 仪表盘" width="560" />
+        </picture>
       </div>
     </td>
   </tr>
