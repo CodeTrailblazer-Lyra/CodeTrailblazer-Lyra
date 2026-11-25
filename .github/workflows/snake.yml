@@ -30,13 +30,18 @@ jobs:
           fetch-depth: 0
 
       - name: Generate snake
-        uses: Platane/snk@905444068febdb67551f3a9e1792a469e7432f67
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             assets/snake-dark.svg?palette=github-dark&color_snake=6C63FF
             assets/snake-light.svg?palette=github-light&color_snake=7845ab
+
+      - name: Verify snake outputs
+        run: |
+          test -s assets/snake-dark.svg
+          test -s assets/snake-light.svg
 
       - name: Commit snake
         uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403

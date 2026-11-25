@@ -59,23 +59,19 @@ jobs:
               --color-calendar-graph-day-L2-border: #30363d;
               --color-calendar-graph-day-L1-border: #30363d;
             }
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
+          extras_js: |
+            document.querySelector("h1 span").textContent = "CodeTrailblazer-Lyra";
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_languages_details: percentage
+          plugin_languages_details: lines, percentage
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
+          plugin_languages_indepth: yes
+          plugin_languages_indepth_custom: >-
+            CodeTrailblazer-Lyra/KeyGo@master,
+            CodeTrailblazer-Lyra/Keygo_Web_React@master
+          repositories_skipped: CodeTrailblazer-Lyra/CodeTrailblazer-Lyra
+          commits_authoring: XingHe, CodeTrailblazer-Lyra
