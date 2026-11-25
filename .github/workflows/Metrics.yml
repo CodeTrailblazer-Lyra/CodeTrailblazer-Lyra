@@ -27,12 +27,13 @@ jobs:
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
         with:
           user: CodeTrailblazer-Lyra
-          filename: metrics.svg
+          filename: metrics-debug.json
           token: ${{ secrets.GITHUB_TOKEN }}
           output_action: commit
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update metrics.svg [skip ci]"
+          committer_message: "chore: inspect metrics data [skip ci]"
           template: classic
+          config_output: json
           base: header, activity
           config_timezone: Asia/Shanghai
           config_display: regular
@@ -74,4 +75,4 @@ jobs:
             CodeTrailblazer-Lyra/KeyGo@master,
             CodeTrailblazer-Lyra/Keygo_Web_React@master
           repositories_skipped: CodeTrailblazer-Lyra/CodeTrailblazer-Lyra
-          commits_authoring: XingHe, CodeTrailblazer-Lyra
+          commits_authoring: JunyeZhou, 星河, XingHe, CodeTrailblazer-Lyra
