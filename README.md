@@ -13,7 +13,7 @@
 
 <table>
   <tr>
-    <td width="56%" valign="top">
+    <td width="46%" valign="top">
       <p>持续学习，探索云计算与云原生，也喜欢把重复的工作交给自动化。</p>
       <p>
         <strong>🧭 技术方向</strong><br />
@@ -26,9 +26,13 @@
         云原生基础设施、自动化交付，以及稳定易用的开发者工具。
       </p>
     </td>
-    <td width="44%" valign="top">
+    <td width="54%" valign="top">
       <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=12" alt="CodeTrailblazer-Lyra 的 GitHub 统计" width="420" />
+        <p>
+          <img src="https://img.shields.io/badge/GitHub%20Metrics-6C63FF?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub Metrics" />
+          <img src="https://img.shields.io/badge/Daily%20Update-58A6FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="每日自动更新" />
+        </p>
+        <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics.svg" alt="CodeTrailblazer-Lyra 的 GitHub Coding Metrics 仪表盘" width="560" />
       </div>
     </td>
   </tr>
@@ -108,14 +112,6 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=CodeTrailblazer-Lyra&amp;bg_color=0D1117&amp;color=6C63FF&amp;line=58A6FF&amp;point=F78166&amp;area=true&amp;hide_border=true&amp;radius=12&amp;custom_title=Contribution%20Activity" alt="GitHub 贡献活动图" width="840" />
   </p>
 </div>
-
-<details>
-  <summary><strong>查看详细 Coding Metrics</strong></summary>
-  <br />
-  <div align="center">
-    <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/metrics.svg" alt="详细的 GitHub Coding Metrics" width="560" />
-  </div>
-</details>
 
 ## 🐍 贡献动态
 

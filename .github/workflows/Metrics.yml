@@ -35,6 +35,30 @@ jobs:
           template: classic
           base: header, activity
           config_timezone: Asia/Shanghai
+          config_display: regular
+          config_padding: "0, 8 + 11%"
+          config_twemoji: yes
+          extras_css: |
+            svg { background: #0d1117 !important; color: #c9d1d9 !important; }
+            h1 { color: #f0f6fc !important; }
+            h2, h3 { color: #58a6ff !important; }
+            .field svg { fill: #8b949e !important; }
+            .field.error { color: #f85149 !important; }
+            .field.warning { color: #d29922 !important; }
+            .activity .issue { color: #58a6ff !important; }
+            footer { color: #8b949e !important; }
+            :root {
+              --color-calendar-graph-day-bg: #21262d;
+              --color-calendar-graph-day-border: #30363d;
+              --color-calendar-graph-day-L1-bg: #0e4429;
+              --color-calendar-graph-day-L2-bg: #006d32;
+              --color-calendar-graph-day-L3-bg: #26a641;
+              --color-calendar-graph-day-L4-bg: #39d353;
+              --color-calendar-graph-day-L4-border: #30363d;
+              --color-calendar-graph-day-L3-border: #30363d;
+              --color-calendar-graph-day-L2-border: #30363d;
+              --color-calendar-graph-day-L1-border: #30363d;
+            }
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
