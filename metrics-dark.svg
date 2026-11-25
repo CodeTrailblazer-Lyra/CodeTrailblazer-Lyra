@@ -21,16 +21,16 @@ h2, h3 { color: #58a6ff !important; }
 .calendar .day[fill="#30a14e"] { fill: #26a641 !important; }
 .calendar .day[fill="#216e39"] { fill: #39d353 !important; }
 :root {
-  --color-calendar-graph-day-bg: #21262d;
-  --color-calendar-graph-day-border: #30363d;
-  --color-calendar-graph-day-L1-bg: #0e4429;
-  --color-calendar-graph-day-L2-bg: #006d32;
-  --color-calendar-graph-day-L3-bg: #26a641;
-  --color-calendar-graph-day-L4-bg: #39d353;
-  --color-calendar-graph-day-L4-border: #30363d;
-  --color-calendar-graph-day-L3-border: #30363d;
-  --color-calendar-graph-day-L2-border: #30363d;
-  --color-calendar-graph-day-L1-border: #30363d;
+ --color-calendar-graph-day-bg: #21262d;
+ --color-calendar-graph-day-border: #30363d;
+ --color-calendar-graph-day-L1-bg: #0e4429;
+ --color-calendar-graph-day-L2-bg: #006d32;
+ --color-calendar-graph-day-L3-bg: #26a641;
+ --color-calendar-graph-day-L4-bg: #39d353;
+ --color-calendar-graph-day-L4-border: #30363d;
+ --color-calendar-graph-day-L3-border: #30363d;
+ --color-calendar-graph-day-L2-border: #30363d;
+ --color-calendar-graph-day-L1-border: #30363d;
 }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -97,7 +97,7 @@ h2, h3 { color: #58a6ff !important; }
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            82 Commits
+                            83 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
