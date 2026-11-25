@@ -61,6 +61,17 @@ jobs:
             }
           extras_js: |
             document.querySelector("h1 span").textContent = "CodeTrailblazer-Lyra";
+            const languageCount = document.querySelectorAll(".language.details").length;
+            const languageHeading = [...document.querySelectorAll("h2")].find(heading => /^\d+ Languages?$/.test(heading.textContent.trim()));
+            if (languageHeading && languageCount) {
+              const textNode = [...languageHeading.childNodes].find(node => node.nodeType === Node.TEXT_NODE && /\d+ Languages?/.test(node.textContent));
+              if (textNode) textNode.textContent = ` ${languageCount} Languages`;
+            }
+            const javaMask = document.querySelector("#languages-bar");
+            if (javaMask?.nextElementSibling) javaMask.nextElementSibling.setAttribute("fill", "#b07219");
+            for (const field of document.querySelectorAll(".language.details > .field")) {
+              if (field.textContent.trim() === "Java") field.querySelector("path")?.setAttribute("fill", "#b07219");
+            }
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
