@@ -61,18 +61,12 @@
   </tr>
 </table>
 
-## 🧰 技术栈
+## 🧰 SRE 技术栈
 
 <div align="center">
-  <h3>国内云平台与网络</h3>
+  <h3>云平台与网络</h3>
   <p>
-    <img src="https://api.iconify.design/thesvg-color/alibabacloud.svg" alt="阿里云" height="48" />
-    &nbsp;
-    <img src="https://api.iconify.design/thesvg-color/tencentcloud.svg" alt="腾讯云" height="48" />
-    &nbsp;
-    <img src="https://api.iconify.design/thesvg-color/huaweicloud.svg" alt="华为云" height="48" />
-    &nbsp;
-    <img src="https://skillicons.dev/icons?i=openstack,nginx,linux&amp;theme=dark&amp;perline=3" alt="OpenStack, Nginx, Linux" height="48" />
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,openstack,nginx,linux&amp;theme=dark&amp;perline=7" alt="AWS, Azure, GCP, Cloudflare, OpenStack, Nginx, Linux" height="64" />
   </p>
 
   <h3>容器与基础设施即代码</h3>
