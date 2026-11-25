@@ -22,9 +22,29 @@
         • Ansible 自动化与可观测性
       </p>
       <p>
+        <strong>🛠 正在构建</strong><br />
+        • <a href="https://github.com/CodeTrailblazer-Lyra/KeyGo">KeyGo</a> — Java 激活码分发系统后端<br />
+        • <a href="https://github.com/CodeTrailblazer-Lyra/Keygo_Web_React">Keygo Web</a> — React + TypeScript 管理前端
+      </p>
+      <p>
+        <strong>🎯 近期重点</strong><br />
+        • 完善项目文档与自动化部署流程<br />
+        • 深入 Kubernetes 运维与可观测性<br />
+        • 沉淀 Ansible 自动化实践
+      </p>
+      <p>
         <strong>🌱 正在关注</strong><br />
         云原生基础设施、自动化交付，以及稳定易用的开发者工具。
       </p>
+      <p>
+        <strong>📚 持续分享</strong><br />
+        记录 Linux、云原生与自动化交付中的实践、踩坑和解决方案。
+      </p>
+      <p>
+        <strong>🤝 欢迎交流</strong><br />
+        如果你也对云原生、自动化或开发者工具感兴趣，欢迎通过 Issues 和 Discussions 一起讨论。
+      </p>
+      <p><strong>✨ 我相信</strong><br />把复杂的事情做简单，把重复的事情交给自动化。</p>
     </td>
     <td width="54%" valign="top">
       <div align="center">
