@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=28&amp;duration=4500&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=64&amp;lines=Hi%2C%20I%27m%20XingHe%21%3BCloud%20Native%20%7C%20Linux%20%7C%20Automation%3BBuild%20%7C%20Learn%20%7C%20Share" alt="Hi, I'm XingHe — Cloud Native, Linux, Automation" width="760" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=28&amp;duration=4500&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=64&amp;lines=Hi%2C%20I%27m%20CodeTrailblazer-Lyra%21%3BCloud%20Native%20%7C%20Linux%20%7C%20Automation%3BBuild%20%7C%20Learn%20%7C%20Share" alt="Hi, I'm CodeTrailblazer-Lyra — Cloud Native, Linux, Automation" width="760" />
   <h3>热爱云计算与云原生的开发者</h3>
   <p>
     <img src="https://img.shields.io/badge/China-1F6FEB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="China" />
@@ -28,7 +28,7 @@
     </td>
     <td width="44%" valign="top">
       <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=12" alt="XingHe 的 GitHub 统计" width="420" />
+        <img src="https://github-readme-stats.vercel.app/api?username=CodeTrailblazer-Lyra&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=12" alt="CodeTrailblazer-Lyra 的 GitHub 统计" width="420" />
       </div>
     </td>
   </tr>
@@ -40,18 +40,11 @@
   <h3>云原生与基础设施</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes&amp;theme=dark" alt="Linux, Docker, Kubernetes" height="64" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/containerd-575757?style=for-the-badge&amp;logo=containerd&amp;logoColor=white" alt="containerd" />
   </p>
 
   <h3>自动化与可观测性</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=bash,ansible,jenkins,gradle,prometheus,grafana,elasticsearch,sentry&amp;theme=dark&amp;perline=8" alt="Bash, Ansible, Jenkins, Gradle, Prometheus, Grafana, Elasticsearch, Sentry" height="64" />
-  </p>
-
-  <h3>语言与框架</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=python,go,java,react,vue,typescript,nextjs,vite&amp;theme=dark&amp;perline=8" alt="Python, Go, Java, React, Vue, TypeScript, Next.js, Vite" height="64" />
   </p>
 
   <h3>数据与缓存</h3>
@@ -64,15 +57,6 @@
   <h3>开发与协作工具</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,atom,electron&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Atom, Electron" height="64" />
-  </p>
-
-  <h3>平台与创作工具</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=aws,ai,wordpress&amp;theme=dark" alt="AWS, Adobe Illustrator, WordPress" height="64" />
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Alibaba%20Cloud-FF6A00?style=for-the-badge&amp;logo=alibabacloud&amp;logoColor=white" alt="Alibaba Cloud" />
-    <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&amp;logo=vmware&amp;logoColor=white" alt="VMware" />
   </p>
 </div>
 
