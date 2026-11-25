@@ -61,27 +61,24 @@
   </tr>
 </table>
 
-## 🧰 SRE 技术栈
+## 🧰 技术栈
 
 <div align="center">
-  <h3>云平台与网络</h3>
+  <h3>云原生与基础设施</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,openstack,nginx,linux&amp;theme=dark&amp;perline=7" alt="AWS, Azure, GCP, Cloudflare, OpenStack, Nginx, Linux" height="64" />
+    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes&amp;theme=dark" alt="Linux, Docker, Kubernetes" height="64" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/containerd-575757?style=for-the-badge&amp;logo=containerd&amp;logoColor=white" alt="containerd" />
   </p>
 
-  <h3>容器与基础设施即代码</h3>
+  <h3>自动化与可观测性</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,k3s,terraform,ansible&amp;theme=dark&amp;perline=5" alt="Docker, Kubernetes, K3s, Terraform, Ansible" height="64" />
+    <img src="https://skillicons.dev/icons?i=bash,ansible,jenkins,gradle,prometheus,grafana,elasticsearch,sentry&amp;theme=dark&amp;perline=8" alt="Bash, Ansible, Jenkins, Gradle, Prometheus, Grafana, Elasticsearch, Sentry" height="64" />
   </p>
 
-  <h3>自动化与持续交付</h3>
+  <h3>语言与框架</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=bash,python,jenkins,githubactions,gitlab&amp;theme=dark&amp;perline=5" alt="Bash, Python, Jenkins, GitHub Actions, GitLab CI" height="64" />
-  </p>
-
-  <h3>可观测性与稳定性</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=prometheus,grafana,jaeger,elasticsearch,sentry&amp;theme=dark&amp;perline=5" alt="Prometheus, Grafana, Jaeger, Elasticsearch, Sentry" height="64" />
+    <img src="https://skillicons.dev/icons?i=python,go,java,react,vue,typescript,nextjs,vite&amp;theme=dark&amp;perline=8" alt="Python, Go, Java, React, Vue, TypeScript, Next.js, Vite" height="64" />
   </p>
 
   <h3>数据与缓存</h3>
@@ -93,7 +90,16 @@
 
   <h3>开发与协作工具</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,vim,neovim&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Vim, Neovim" height="64" />
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,markdown,vscode,pycharm,atom,electron&amp;theme=dark&amp;perline=8" alt="Git, GitHub, GitLab, Markdown, VS Code, PyCharm, Atom, Electron" height="64" />
+  </p>
+
+  <h3>平台与创作工具</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=aws,ai,wordpress&amp;theme=dark" alt="AWS, Adobe Illustrator, WordPress" height="64" />
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Alibaba%20Cloud-FF6A00?style=for-the-badge&amp;logo=alibabacloud&amp;logoColor=white" alt="Alibaba Cloud" />
+    <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&amp;logo=vmware&amp;logoColor=white" alt="VMware" />
   </p>
 </div>
 
