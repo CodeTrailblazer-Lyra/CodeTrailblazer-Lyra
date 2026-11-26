@@ -139,18 +139,14 @@
 
 ## 🐍 贡献动态
 
-<details>
-  <summary><strong>查看贪吃蛇与 3D 贡献图</strong></summary>
-  <br />
-  <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/assets/snake-dark.svg" />
-      <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/assets/snake-light.svg" alt="GitHub 贡献贪吃蛇" width="840" />
-    </picture>
-    <br /><br />
-    <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D 贡献图" width="840" />
-  </div>
-</details>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/assets/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/assets/snake-light.svg" alt="GitHub 贡献贪吃蛇" width="840" />
+  </picture>
+  <br /><br />
+  <img src="https://raw.githubusercontent.com/CodeTrailblazer-Lyra/CodeTrailblazer-Lyra/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D 贡献图" width="840" />
+</div>
 
 ---
 
