@@ -67,8 +67,6 @@
   <h3>云原生与基础设施</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes&amp;theme=dark" alt="Linux, Docker, Kubernetes" height="64" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/containerd-575757?style=for-the-badge&amp;logo=containerd&amp;logoColor=white" alt="containerd" />
   </p>
 
   <h3>自动化与可观测性</h3>
@@ -96,10 +94,6 @@
   <h3>平台与创作工具</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=aws,ai,wordpress&amp;theme=dark" alt="AWS, Adobe Illustrator, WordPress" height="64" />
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Alibaba%20Cloud-FF6A00?style=for-the-badge&amp;logo=alibabacloud&amp;logoColor=white" alt="Alibaba Cloud" />
-    <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&amp;logo=vmware&amp;logoColor=white" alt="VMware" />
   </p>
 </div>
 
